@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace HealthCheck
+namespace ServiceA
 {
     public class Program
     {
@@ -20,8 +20,6 @@ namespace HealthCheck
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
-                .UseHealthChecks("/hc")
                 .Build();
     }
 }
-    

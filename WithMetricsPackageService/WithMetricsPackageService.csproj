@@ -9,10 +9,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="App.Metrics" Version="2.1.0" />
+    <PackageReference Include="App.Metrics.AspNetCore.Mvc" Version="2.0.0" />
+    <PackageReference Include="App.Metrics.Extensions.Middleware" Version="1.2.1" />
+    <PackageReference Include="App.Metrics.Formatters.Json" Version="2.1.0" />
+    <PackageReference Include="App.Metrics.Health.Formatters.Json" Version="2.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
-    <PackageReference Include="Microsoft.AspNetCore.HealthChecks" Version="1.0.0" />
-    <PackageReference Include="Microsoft.Extensions.HealthChecks.SqlServer" Version="1.0.0" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" />
   </ItemGroup>
 
   <ItemGroup>
